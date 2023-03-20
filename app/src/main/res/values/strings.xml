@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">project_one</string>
+    <string name="title">Title</string>
+    <string name="feeCart">0.0</string>
+    <string name="$Sign">$</string>
+    <string name="add">+add</string>
+    <string name="myCart">My Cart</string>
+    <string name="itemTotal">Item Total:</string>
+    <string name="$and0">$ 0</string>
+    <string name="deliveryService">Delivery Service Charge :</string>
+    <string name="tax">Tax :</string>
+    <string name="total">Total :</string>
+    <string name="Home">Home</string>
+    <string name="Checkout">CHECKOUT</string>
+    <string name="search">Search</string>
+    <string name="setting">Setting</string>
+    <string name="account">Account</string>
+    <string name="goToPayment">go to payment</string>
+    <string name="EnterName">Enter Name :</string>
+    <string name="Name">Name :</string>
+    <string name="Address">Address :</string>
+    <string name="enterAddress">Enter Address:</string>
+    <string name="enterPhoneNumber">Enter Phone Number :</string>
+    <string name="phone">Phone :</string>
+    <string name="mines">-</string>
+    <string name="plus">+</string>
+    <string name="one">1</string>
+    <string name="zero">0</string>
+    <string name="blue_formal">Blue Formal</string>
+    <string name="blue_spiral">Blue Spiral</string>
+    <string name="gray_splash">Gray Splash </string>
+    <string name="green_splash">Green Splash </string>
+</resources>

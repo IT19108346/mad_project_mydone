@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/elevation"
+    android:layout_marginStart="@dimen/marginStartCart"
+    android:layout_marginTop="@dimen/marginStartCart"
+    android:layout_marginEnd="@dimen/marginStartCart"
+    android:layout_marginBottom="@dimen/marginStartCart">
+
+    <ImageView
+        android:id="@+id/blue_formal"
+        android:layout_width="@dimen/layout_height_CoordinatorLayout"
+        android:layout_height="@dimen/layout_height_CoordinatorLayout"
+        android:layout_marginTop="@dimen/marginBottom"
+        android:layout_marginBottom="@dimen/marginBottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/blue_formal" />
+
+    <TextView
+        android:id="@+id/text_blue_formal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginBottom"
+        android:layout_marginTop="@dimen/marginStartCart"
+        android:text="@string/blue_formal"
+        android:textSize="@dimen/textSizeTotal"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/blue_formal"
+        app:layout_constraintTop_toTopOf="@id/blue_formal" />
+
+    <TextView
+        android:id="@+id/minusCartBtn"
+        android:layout_width="@dimen/inputFieldTwo"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/paddingStartAdd"
+        android:background="@color/buttonOne"
+        android:text="@string/mines"
+        android:textAlignment="center"
+        android:textColor="@color/buttonCart"
+        android:textSize="@dimen/drawableRadios"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/blue_formal"
+        app:layout_constraintStart_toStartOf="@+id/text_blue_formal" />
+
+    <TextView
+        android:id="@+id/numberItemTxt"
+        android:layout_width="@dimen/inputFieldTwo"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginBottom"
+        android:text="@string/one"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/minusCartBtn"
+        app:layout_constraintStart_toEndOf="@+id/minusCartBtn"
+        app:layout_constraintTop_toTopOf="@+id/minusCartBtn" />
+
+    <TextView
+        android:id="@+id/text_blue_formal_sec"
+        android:layout_width="@dimen/inputFieldTwo"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:background="@color/buttonOne"
+        android:text="@string/plus"
+        android:textAlignment="center"
+        android:textColor="@color/buttonCart"
+        android:textSize="@dimen/drawableRadios"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/numberItemTxt"
+        app:layout_constraintStart_toEndOf="@+id/numberItemTxt"
+        app:layout_constraintTop_toTopOf="@+id/numberItemTxt"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/feeEachItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginStartCart"
+        android:text="@string/zero"
+        android:textColor="@color/word"
+        android:textSize="@dimen/textSizeTotal"
+        app:layout_constraintBottom_toBottomOf="@+id/text_blue_formal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_blue_formal" />
+
+    <TextView
+        android:id="@+id/text_blue_formal_forth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/elevation"
+        android:text="@string/$Sign"
+        android:textColor="@color/buttonOne"
+        android:textSize="@dimen/textSizeTotal"
+        app:layout_constraintBottom_toBottomOf="@+id/feeEachItem"
+        app:layout_constraintEnd_toStartOf="@+id/feeEachItem"
+        app:layout_constraintTop_toTopOf="@+id/feeEachItem"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text_blue_formal_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/elevation"
+        android:text="@string/$Sign"
+        android:textAlignment="center"
+        android:textColor="@color/buttonOne"
+        android:textSize="@dimen/textSizeTotal"
+        app:layout_constraintBottom_toBottomOf="@+id/totalEachItem"
+        app:layout_constraintEnd_toStartOf="@+id/totalEachItem"
+        app:layout_constraintTop_toTopOf="@+id/totalEachItem"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/totalEachItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginStartCart"
+        android:layout_marginBottom="@dimen/marginBottom"
+        android:text="@string/zero"
+        android:textColor="@color/word"
+        android:textSize="@dimen/textSizeTotal"
+        app:layout_constraintBottom_toBottomOf="@+id/text_blue_formal_sec"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_blue_formal_sec" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="paddingStartAdd">10dp</dimen>
+    <dimen name="elevation">3dp</dimen>
+    <dimen name="drawableRadios">15dp</dimen>
+    <dimen name="marginTopMyCart">32dp</dimen>
+    <dimen name="marginStartCart">16dp</dimen>
+    <dimen name="marginBottom">4dp</dimen>
+    <dimen name="textSizeTotal">18sp</dimen>
+    <dimen name="inputFieldTwo">20sp</dimen>
+    <dimen name="inputField">25dp</dimen>
+    <dimen name="totalText">30dp</dimen>
+    <dimen name="checkoutLayoutHeight">50dp</dimen>
+    <dimen name="CradleVerticalOffset">6dp</dimen>
+    <dimen name="layout_height_CoordinatorLayout">100dp</dimen>
+    <dimen name="home_textSize">12sp</dimen>
+    <dimen name="checkoutMarginEnd">36dp</dimen>
+    <dimen name="marginStartCheckout">8dp</dimen>
+    <dimen name="layoutWidthMinus">70dp</dimen>
+    <dimen name="layoutHeightMinus">48dp</dimen>
+
+</resources>
